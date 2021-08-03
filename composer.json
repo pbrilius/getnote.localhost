@@ -1,0 +1,25 @@
+{
+    "name": "pbrilius/getnote.localhost",
+    "description": "EU target market notes application.",
+    "type": "project",
+    "require": {
+        "pbrilius/c2c-mvc.pbgroupeu": "dev-master",
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Pbrilius\\GetnoteLocalhost\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Povilas Brilius",
+            "email": "pbrilius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
