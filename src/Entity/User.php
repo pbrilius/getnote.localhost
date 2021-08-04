@@ -2,6 +2,8 @@
 
 namespace Pbrilius\GetnoteLocalhost\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * User
  */
@@ -21,6 +23,16 @@ class User
      * @var int
      */
     private $id;
+
+    /**
+         * @var ArrayCollection
+     */
+    private $notes;
+
+    public function __construct()
+    {
+      $this->notes = new ArrayCollection();
+    }
 
 
     /**
