@@ -92,4 +92,29 @@ class User
     {
         return $this->id;
     }
+
+    /**
+     * Get the value of Notes
+     *
+     * @return ArrayCollection
+     */
+    public function getNotes()
+    {
+        return $this->notes;
+    }
+
+    /**
+     * Set the value of Notes
+     *
+     * @param ArrayCollection $notes
+     *
+     * @return self
+     */
+    public function setNotes(ArrayCollection $notes)
+    {
+        $this->notes = $notes;
+
+        return $this;
+    }
+
 }
