@@ -1,0 +1,31 @@
+{
+  "name": "getnote.localhost",
+  "version": "1.0.0",
+  "description": "A small scale - based on _Composer_ dependencies - **MVC - ORM** application project. It can be used on low-intensity resources consumption _PHP_ _e-benchmarks_ inferred environments like concerns of _e-commerce_ & _e-loans_.",
+  "directories": {
+    "test": "tests"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbrilius/getnote.localhost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbrilius/getnote.localhost/issues"
+  },
+  "homepage": "https://github.com/pbrilius/getnote.localhost#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "npm-watch": "^0.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

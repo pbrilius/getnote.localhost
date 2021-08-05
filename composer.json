@@ -15,6 +15,9 @@
             "Pbrilius\\GetnoteLocalhost\\": "src/"
         }
     },
+    "autoload-dev": {
+      "psr-4":{"Pbrilius\\GetnoteLocalhost\\Tests": "tests/"}
+    },
     "authors": [
         {
             "name": "Povilas Brilius",
