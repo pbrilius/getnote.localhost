@@ -2,10 +2,10 @@
   "name": "getnote.localhost",
   "version": "1.0.0",
   "description": "A small scale - based on _Composer_ dependencies - **MVC - ORM** application project. It can be used on low-intensity resources consumption _PHP_ _e-benchmarks_ inferred environments like concerns of _e-commerce_ & _e-loans_.",
-  "main": "index.js",
   "directories": {
     "test": "tests"
   },
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
